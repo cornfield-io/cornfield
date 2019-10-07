@@ -1,0 +1,16 @@
+{
+  "login.seoTitle": "Admin login",
+  "login.heading": "Log in",
+  "login.id": "Your email address",
+  "login.password": "Your password",
+  "login.forgotPassword": "Forgot password",
+  "login.submit": "Sign in",
+
+  "page.template": "Template",
+  "page.state": "State",
+  "page.title": "Page title",
+  "page.description": "Page description",
+  "page.content": "Page content",
+
+  "general.userForSEO": "Used for SEO"
+}

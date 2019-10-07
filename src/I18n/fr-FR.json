@@ -1,0 +1,16 @@
+{
+  "login.seoTitle": "Connexion à l'admin",
+  "login.heading": "Connexion",
+  "login.id": "Votre adresse mail",
+  "login.password": "Votre mot de passe",
+  "login.forgotPassword": "Mot de passe oublié",
+  "login.submit": "Je me connecte",
+
+  "page.template": "Modèle",
+  "page.state": "État",
+  "page.title": "Titre de la page",
+  "page.description": "Description de la page",
+  "page.content": "Contenu de la page",
+
+  "general.userForSEO": "Utile au référencement"
+}
