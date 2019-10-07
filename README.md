@@ -1,3 +1,3 @@
-# cornfield-io/core
+# cornfield-io/cornfield
 
 Work in progress
