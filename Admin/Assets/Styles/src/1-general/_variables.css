@@ -1,0 +1,22 @@
+:root {
+  --text-color: var(--gray-9);
+
+  /* Test from https://palx.jxnblk.com */
+  --gray-0: #f8f9f9;
+  --gray-1: #ebedee;
+  --gray-2: #dee1e3;
+  --gray-3: #cfd3d6;
+  --gray-4: #bec4c8;
+  --gray-5: #acb4b9;
+  --gray-6: #97a1a7;
+  --gray-7: #7f8a93;
+  --gray-8: #5f6e78;
+  --gray-9: #374047;
+  --gray-10: #2d2c3b;
+
+  /* Shadows */
+  --shadow: 0 1px 3px rgba(0, 0, 0, .25);
+
+  /* Grid */
+  --grid-gutter: 1rem;
+}

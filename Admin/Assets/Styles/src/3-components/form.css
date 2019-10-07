@@ -1,0 +1,59 @@
+.Form-element {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+label[for],
+input[id],
+select[id],
+textarea[id] {
+  width: 100%;
+}
+
+input[id],
+textarea[id],
+select[id] {
+  border: 1px solid var(--gray-3);
+  border-radius: 2px;
+  color: inherit;
+  padding: .5rem;
+}
+
+label[for] {
+  padding-bottom: .25rem;
+}
+
+.Form-label {
+  font-weight: 700;
+}
+
+.Form-hint {
+  color: #777;
+  display: block;
+  font-size: .85rem;
+}
+
+
+/* Password fields */
+.js-Form-element--password > input[id] {
+  width: 80%;
+}
+
+.js-Form-element--password > [type="button"][aria-pressed] {
+  width: 20%;
+}
+
+textarea[id] {
+  min-height: 15em;
+  resize: vertical;
+}
+
+form [type="submit"] {
+  background: var(--gray-3);
+  border: 0;
+  border-radius: 2px;
+  color: var(--gray-9);
+  font-weight: 700;
+  padding: .75rem;
+}

@@ -1,0 +1,22 @@
+[role="banner"] {
+  align-items: center;
+  background: var(--gray-9);
+  color: #fff;
+  display: flex;
+  margin-bottom: 3rem;
+  padding: 1.5rem 1rem;
+}
+
+[role="banner"] svg,
+[role="banner"] svg path {
+  fill: #fff;
+}
+
+[role="banner"] svg {
+  margin-right: 1rem;
+}
+
+[role="banner"] h1 {
+  font-size: 1.125rem;
+  margin-top: 0;
+}
