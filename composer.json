@@ -16,6 +16,23 @@
       "Cornfield\\": "src/"
     }
   },
+  "scripts": {
+    "dev": [
+      "@require-check",
+      "@fix-style",
+      "@quality"
+    ],
+    "fix-style": [
+      "php-cs-fixer fix src --rules=@Symfony"
+    ],
+    "quality": [
+      "psalm",
+      "phpstan analyse --level max src"
+    ],
+    "require-check": [
+      "composer-require-checker check ./composer.json"
+    ]
+  },
   "require": {
     "php": ">=7.2",
     "cornfield-io/core": "dev-development"
